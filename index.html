@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .header-img {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+            filter: brightness(0.3);
+        }
+
+        .container {
+        
+            position: absolute;
+            right: 32px;
+            left: 32px;
+            top: 16px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: "Quicksand", sans-serif;
+        }
+
+        .menu-link{
+            color: white;
+            text-decoration: none;
+            margin-left: 16px;
+            
+        }
+
+        .menu-link:hover {
+            text-decoration: underline;
+        }
+
+        .text_format {
+            color: aliceblue;
+            position: absolute;
+            margin:5% 5%;
+            top: 200px;
+            font-size: 15px;
+            font-family: "Quicksand", sans-serif;
+            text-align: center;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+
+        }
+
+        .texto1 {
+            
+            width: 200px;
+            padding-left: 80px;
+
+        }
+
+        .texto2 {
+            
+            width: 300px;
+            padding-left: 950px;
+            padding-top: 20px;
+
+
+        }
+
+        .texto3 {
+            
+            width: 280px;
+            padding-left: 1000px;
+            padding-bottom: 10px;
+        }
+
+        span {
+            color: yellow;
+        }
+
+        .button {
+
+            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 10px;
+            
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <img class="header-img" src="Foto_Fundo.jpg">
+    <div class="container">
+        <img src="Logo_SolarSystem.png" class="logo" />
+
+        <div>
+        <a class="menu-link button" href="">The planets</a>
+        <a class="menu-link button" href="">Sun & Comets</a>
+        <a class="menu-link button" href="">Location</a>
+        <a class="menu-link button" href="">References</a>
+        <a class="menu-link button" href="">Create Account</a>
+        </div>
+    </div>    
+       
+    <h1 class="text_format"> 
+
+        <div class="texto1">The Solar System is the gravitationally bound system of <span>the Sun</span> and the objects that orbit it</div>
+        <div class="texto2"> [...] formed <span>4.568 billion years ago </span>from the gravitational collapse of a region within a large molecular cloud. </div>
+        <div class="texto3"> This initial cloud was likely several light-years across and probably birthed several <span> stars </span></div>
+
+    </h1>
+    
+</body>
+</html>
